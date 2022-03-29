@@ -19,7 +19,7 @@ namespace Company
 {
     public class Startup
     {
-        public IConfiguration Configuration { get; set; }
+        public IConfiguration Configuration { get; }
         
         public Startup(IConfiguration configuration)
         {
